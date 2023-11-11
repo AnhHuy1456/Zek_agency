@@ -1,0 +1,275 @@
+.feedback {
+  background-image: url(../../../../assets/images/bg-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px 0 50px;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  width: 1280px;
+  padding: 0 15px;
+  margin: 0 292px;
+}
+
+.title-home {
+  margin-bottom: 30px;
+  text-align: center;
+
+  .title {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .line-title {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+  }
+}
+
+.content-home {
+  .row-flex {
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+  }
+}
+
+.col-md-4 {
+  width: 480px;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.titlesmall {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.inner {
+  .text {
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+  }
+}
+
+.col-md-8 {
+  width: calc(100% - 480px);
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.list {
+  display: flex;
+//   flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.box {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.item-above-left {
+  position: relative;
+  padding: 12px 20px 24px 24px;
+  border-radius: 15px;
+  background: #fff;
+  width: 260px;
+  margin: 60px 0 30px 110px;
+
+  .avt {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 25px;
+    left: -25px;
+  }
+
+  .icon {
+    position: absolute;
+    top: -15px;
+    right: 28px;
+    width: auto;
+    height: auto;
+  }
+
+  .headtitle {
+    margin-bottom: 35px;
+    padding-left: 45px;
+    padding-top: 30px;
+
+    .name {
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+    .sub {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .content {
+    font-style: italic ;
+    letter-spacing: 0.05em;
+    text-align: justify;
+  }
+}
+
+.item-below-left {
+  position: relative;
+  padding: 12px 20px 24px 24px;
+  border-radius: 15px;
+  background: #fff;
+
+  .avt {
+    top: -20px;
+    left: 15px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .icon {
+    position: absolute;
+    top: -15px;
+    right: 28px;
+    width: auto;
+    height: auto;
+  }
+
+  .headtitle {
+    padding: 3px 0 0 85px ;
+    margin-bottom: 20px;
+
+    .name {
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+    .sub {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .content {
+    font-style: italic ;
+    letter-spacing: 0.05em;
+    text-align: justify;
+  }
+}
+
+.item-above-right {
+    position: relative;
+    padding: 12px 20px 24px 24px;
+    border-radius: 15px;
+    background: #fff;
+    margin-bottom: 30px;
+
+    .icon{
+        position: absolute;
+        top: -15px;
+        right: 28px;
+        width: auto;
+        height: auto;
+    }
+
+    .avt{
+        top: -10px;
+        left: -25px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .headtitle {
+        padding-top: 3px;
+        padding-left: 45px;
+        margin-bottom: 30px;
+    }
+
+    .name {
+        font-size: 14px;
+        margin-bottom: 3px;
+      }
+      .sub {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    
+  
+    .content {
+      font-style: italic ;
+      letter-spacing: 0.05em;
+      text-align: justify;
+    }
+}
+
+.item-below-right {
+    position: relative;
+    padding: 12px 20px 24px 24px;
+    border-radius: 15px;
+    background: #fff;
+
+    .icon{
+        position: absolute;
+        top: -15px;
+        right: 28px;
+        width: auto;
+        height: auto;
+    }
+
+    .avt{
+        top: 35px;
+        left: -25px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .headtitle {
+        padding-top: 22px;
+        padding-left: 45px;
+        margin-bottom: 45px;
+    }
+
+    .name {
+        font-size: 14px;
+        margin-bottom: 3px;
+      }
+      .sub {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    
+  
+    .content {
+      font-style: italic ;
+      letter-spacing: 0.05em;
+      text-align: justify;
+    }
+}

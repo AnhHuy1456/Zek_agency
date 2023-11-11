@@ -1,0 +1,129 @@
+a:active a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+
+.header-btn {
+  width: 930px;
+  height: 100px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.header-main {
+  width: 930px;
+  height: 88px;
+}
+
+.header-nav {
+  margin: 12px 0 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  img {
+    width: 22px;
+    height: 22px;
+    margin: 0 20px 0 0;
+  }
+
+  .time-work {
+    display: flex;
+    align-items: center;
+    width: 212.141px;
+    height: 24px;
+  }
+  .link {
+    display: inline-block;
+    height: 40px;
+    padding: 0 34px 0 26px;
+    margin-left: 30px;
+    line-height: 40px;
+    background: linear-gradient(
+      93deg,
+      #1c2398 2.81%,
+      #0a1577 36.07%,
+      #d20792 97.62%
+    );
+    border-radius: 30px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.header-menu {
+  width: 1500px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  line-height: 45px;
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .menu-hover {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .menu-item {
+      margin-left: 45px;
+      display: inline-block;
+      align-items: center;
+      font-size: 16px;
+      font-weight: bold;
+      width: auto;
+      height: 41px;
+      position: relative;
+    }
+  }
+}
+
+.sub-menu {
+  display: none;
+  background: var(--color-text);
+  top: calc(102%);
+  left: 0;
+  border-top: 2px solid #000;
+  background: var(--color-text);
+  width: auto;
+  min-width: 180px;
+
+  .list-menu {
+    .list-menu-hover {
+      display: block;
+      padding: 8px 0;
+      margin: 0 10px 0 20px;
+      border-bottom: 1px dashed #ecf0f1;
+      white-space: nowrap;
+      padding-right: 20px;
+      width: 175px;
+    }
+  }
+
+  .list-menu-hover:hover {
+    color: var(--color-text-headerbtn);
+  }
+}
+
+.sub-menu:hover {
+  display: block;
+}
+
+.menu-hover:hover {
+  color: var(--color-text-headerbtn);
+}
+
+.menu-hover-nolist:hover { 
+  color: var(--color-text-headerbtn);
+}
+
+.menu-hover:hover + .sub-menu {
+  display: block;
+}

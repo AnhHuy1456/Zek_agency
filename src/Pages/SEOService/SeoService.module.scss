@@ -1,0 +1,38 @@
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #666;
+
+  .scroll {
+    display: block;
+    cursor: pointer;
+
+    .icon-up {
+      border-radius: 50px;
+      display: block;
+      margin-bottom: 3px;
+      width: 40px;
+      height: 40px;
+      background-image: url(../../assets/images/up_ic.png);
+      background-size: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  transition: all 300ms ease-in-out;
+  behavior: unset;
+}
+
