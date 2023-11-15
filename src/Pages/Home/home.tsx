@@ -2,8 +2,9 @@ import React from "react";
 import classNames from "classnames/bind";
 
 import styles from "./Home.module.scss";
-import Header from "./Header/header";
-import Section from "./Section ";
+import Header from "../../components/Header/header";
+import Main from "./Main/Main";
+import Footer from "../../components/Footer/footer";
 
 const cx = classNames.bind(styles);
 
@@ -17,7 +18,12 @@ const Home = () => {
       <header className={cx("header")}>
         <Header />
       </header>
-      <div className={cx('Huy')}><Section /></div>
+      <main className={cx("main")}>
+        <Main />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

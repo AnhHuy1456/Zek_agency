@@ -2,11 +2,11 @@ import React from "react";
 import classNames from "classnames/bind";
 
 import styles from "./Footer.module.scss";
-import Logo from "../../../assets/images/logo.png";
-import Call from "../../../assets/images/icon_call.png";
-import Mail from "../../../assets/images/icon_mail.png";
-import Local from "../../../assets/images/icon_local.png";
-import DMCA from "../../../assets/images/image21.png"
+import Logo from "../../assets/images/logo.png";
+import Call from "../../assets/images/icon_call.png";
+import Mail from "../../assets/images/icon_mail.png";
+import Local from "../../assets/images/icon_local.png";
+import DMCA from "../../assets/images/image21.png"
 
 
 const cx = classNames.bind(styles);

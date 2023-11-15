@@ -2,16 +2,17 @@ import React from "react";
 import { animateScroll as scroll } from 'react-scroll';
 
 
-import Header from "./Header/header";
+import Header from "../../components/Header/header";
 import Main from "./Main/main";
 import styles from "./SeoService.module.scss";
 import classNames from "classnames/bind";
-import Footer from "./Footer/footer";
+import Footer from "../../components/Footer/footer";
+
 
 const cx = classNames.bind(styles);
 
 const SeoService = () => {
-
+  
 
   const scrollToTop = () => {
     scroll.scrollToTop();

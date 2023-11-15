@@ -2,7 +2,7 @@ import React from "react";
 import classNames from "classnames/bind";
 import styles from "./HeaderBtn.module.scss";
 
-import SeoService from "../../seoService";
+import Time from '../../../assets/images/Time.png'
 
 const cx = classNames.bind(styles);
 
@@ -12,7 +12,7 @@ const HeaderBtn = () => {
       <div className={cx("header-main")}>
         <div className={cx("header-nav")}>
           <div className={cx("time-work")}>
-            <img src="https://zek.vn/core/viewszek/bf4826a616/images/Time.png" />
+            <img src={Time} />
             Mon - Sat: 8:00 - 17:30
           </div>
           <a href="" className={cx("link")}>
@@ -22,7 +22,7 @@ const HeaderBtn = () => {
         <div className={cx("header-menu")}>
           <ul className={cx("menu")}>
             <li className={cx("menu-item")}>
-              <a href="" className={cx('menu-hover-nolist')}> KHO GIAO DIỆN </a>
+              <a href="/interfaces" className={cx('menu-hover-nolist')}> KHO GIAO DIỆN </a>
             </li>
             <li className={cx("menu-item")}>
               <div className={cx('menu-hover')}> DỊCH VỤ </div>

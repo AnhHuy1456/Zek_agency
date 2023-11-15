@@ -1,0 +1,50 @@
+.banner-page {
+  height: auto;
+  background: linear-gradient(
+    93deg,
+    #5155a0 2.81%,
+    #585d86 36.07%,
+    #e7a4d2 97.62%
+  );
+  padding: 150px 0 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  position: relative;
+  color: #fff;
+}
+
+.inner {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.container{
+    width: 1280px;
+    padding: 0 15px;
+    margin: 0 292px;
+}
+
+.box-title{
+    .title-page{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .text {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: justify;
+    }
+}
+
+.carousel {
+    display: block;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
